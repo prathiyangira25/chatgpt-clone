@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background: #212121;
+  color: #ececec;
+  font-family: Inter, system-ui, Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
