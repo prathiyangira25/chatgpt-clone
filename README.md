@@ -41,4 +41,20 @@ A high-fidelity frontend replica of the ChatGPT-4o interface built with React an
 
 1. **Clone the repo:**
    ```bash
-   git clone [https://github.com/your-username/chatgpt-clone.git](https://github.com/your-username/chatgpt-clone.git)
+   git clone [https://github.com/prathiyangira25/chatgpt-clone.git](https://github.com/prathiyangira25/chatgpt-clone.git)
+
+2. **Install Dependencies:**
+   ```bash
+   npm install
+
+3. **Launch the development server:**
+   ```bash
+   npm run dev
+
+**Implementation Notes:**
+To modify the bot's repetition behavior, navigate to ChatWindow.jsx and locate the send function. The logic uses the following pattern:
+   ```bash
+   $$Response = Input \times 3$$
+
+
+This project is developed for educational and portfolio purposes.
